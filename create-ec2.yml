@@ -20,7 +20,7 @@
 
         instance_type: "{{ instance_type }}"
 
-        security_group: "{{ security_group.group_id  }}"
+        security_group: "{{ sec_group  }}"
 
         count: 1
 
