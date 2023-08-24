@@ -22,8 +22,6 @@
 
         security_group: "{{ sec_group  }}"
 
-        assign_public_ip: false
-
         count: 1
 
         wait: yes
@@ -32,6 +30,6 @@
 
         network:
 
-          assign_public_ip: true
+          assign_public_ip: false
 
         image_id: "{{ ami }}"
