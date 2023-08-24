@@ -8,7 +8,7 @@
 
       amazon.aws.ec2_instance:
 
-        name: "Test-Ansible"
+        name: "{{ vm_name }}"
 
         key_name: "{{ key_name }}"
 
